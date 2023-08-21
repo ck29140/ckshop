@@ -25,7 +25,7 @@ function Header() {
             <span className="nav_itemlinetwo">Shop</span>
           </div>
           <div className="nav_itemBasket">
-          <ShoppingBasketIcon />
+            <ShoppingBasketIcon fontSize='large'></ ShoppingBasketIcon>
             <span className="nav_itemlinetwo basket_count">0</span>
           </div>
         </div>
