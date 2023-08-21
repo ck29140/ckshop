@@ -8,11 +8,11 @@ function Header() {
     return (
       <div className="header">
         <div className="header_logo">
-          <StorefrontIcon className='header_logo' fontSize='large'></StorefrontIcon>
-          <h2 className='header_logo' >SOMRAS</h2>
+          <StorefrontIcon className='header_logoImage' fontSize='large'></StorefrontIcon>
+          <h2 className='header_logoTitle' >SOMRAS</h2>
         </div>
         <div className="header_searchbar">
-          <input type = "text" className='header_searchbar'></input>
+          <input type = "text" className='header_searchbarInput'></input>
           <SearchIcon className='search_logo'></SearchIcon>
         </div>
         <div className="header_nav">
@@ -24,9 +24,9 @@ function Header() {
             <span className="nav_itemlineone">Your</span>
             <span className="nav_itemlinetwo">Shop</span>
           </div>
-          <div className="nav_item">
-          <ShoppingBasketIcon></ShoppingBasketIcon>
-            <span className="nav_itemlinetwo">0</span>
+          <div className="nav_itemBasket">
+          <ShoppingBasketIcon />
+            <span className="nav_itemlinetwo basket_count">0</span>
           </div>
         </div>
         
